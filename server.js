@@ -1,8 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const compression = require("compression");
+const compression = require("compression"); // kiểu như dùng để up lên heroku dễ hơn
 const helmet = require("helmet");
-const cors = require("cors");
+const cors = require("cors"); // liên quan đến bảo mật
 const path = require("path");
 
 const app = express();
